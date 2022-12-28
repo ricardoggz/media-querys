@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+header{
+    background-color: black;
+    padding:20px;
+}
+section{
+    height:700px;
+    background-color: blue;
+    display:flex;
+    gap:20px;
+    padding:20px;
+}
+div{
+    background: white;
+    height:300px;
+    font-size: 20px;
+}
+footer{
+    background-color: black;
+    padding:20px;
+}
+/*responsive*/
+@media (min-width:240px) and (max-width:900px){
+    section{
+        height: auto;
+        flex-direction:column;
+    }
+    div{
+        font-size: 12px;
+    } 
+}
